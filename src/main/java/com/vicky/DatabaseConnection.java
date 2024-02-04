@@ -9,7 +9,7 @@ public class DatabaseConnection {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/my_db"; 
         String user = "root"; 
-        String password = "VICKYspartan12345";
+        String password = "";
 
         String query = "INSERT INTO employee(empcode, empname, empage, esalary) VALUES (?, ?, ?, ?)";
         
